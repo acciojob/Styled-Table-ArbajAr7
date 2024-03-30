@@ -1,1 +1,17 @@
 /* your code */
+table{
+  border-radius: 10px;
+	border-collapse: collapse;
+	
+}
+#tablehead {
+	background-color: #04AA6D;
+	color: white;
+	
+}
+th{
+	padding-right:30px
+}
+tr:nth-child(even) {
+  background-color: grey;
+}
